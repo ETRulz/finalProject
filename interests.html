@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Personal Interests</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  </head>
+  <body>
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="tags7">&times;</a>
+        <i class="fas fa-home fa-2x color"></i><a href="index.html" id="tags">Home</a><br>
+        <i class="fas fa-info fa-2x color"></i><a href="about.html" id="tags2">About</a><br>
+        <i class="far fa-question-circle fa-2x color"></i><a href="myStory.html" id="tags3">Who Am I</a><br>
+        <i class="fas fa-folder-open fa-2x color"></i><a href="works.html" id="tags4">Works</a><br>
+        <i class="fas fa-exclamation fa-2x color"></i><a href="interests.html" id="tags5">Interests</a><br>
+        <i class="fas fa-edit fa-2x color"></i><a href="contact.html" id="tags6">Contact</a><br>
+      </div>
+
+      <span id="icon" onclick="openNav()">&#9776;</span>
+
+      <div class="main">
+        <h2 class="pageHeading">My Interests</h2>
+
+            <div class="intGrid-container">
+
+              <div class="intItem1">
+                <p class="listTitle">
+                  What I'd like to continue working with:
+                </p>
+                <ul>
+                  <li>Java</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+                <p class="listTitle">
+                  What I'd like to re-learn or start to learn:
+                </p>
+                <ul>
+                  <li>Python</li>
+                  <li>C++</li>
+                </ul>
+              </div>
+
+              <div class="intItem2">
+                <p class="itemTitle">
+                  Plans
+                </p>
+                <p id="intPTag">
+                  &nbsp;&nbsp;&nbsp;&nbsp;Right now I'm only planning to take a Java class later this year, but I've been meaning to spend time to re-learn python because
+                  I've basically forgotten everything I knew about a year ago. That is probably my main interest in something I'd like to do
+                  in my own time. For the rest of my time though I'm obviously going to be learning more java which is something I'm looking forward
+                  to since while I was introduced to it in my CSA class I've liked working with it, and it's the most recent coding language I've
+                  worked with so I'll probably remember more things about it. You might already know that I'm making this website myself, so that
+                  tells you about my html and css experience. So far I'm enjoying using it, but I don't see myself really going any further with it.
+                  I'm more interested in programming as far as I can tell right now.
+                </p>
+              </div>
+
+              <div class="intItem3">
+                <img src="images/htmlCssImg.jpg" alt="Picture of python code that says python overlayed on top">
+              </div>
+
+              <div class="intItem4">
+                <img src="images/pythonIMG.webp" alt="Picture of html that says html5 and css3 overlayed on top">
+              </div>
+
+            </div>
+      </div>
+
+    <footer>
+      <address>
+        <a href="https://github.com/ETRulz">Ethan Hancock</a>
+        <a href="+tel:+1563.340.8773">Phone</a>
+        <a href="mailto:eh155782@students.davenport.k12.ia.us" id="emailTag">Email</a>
+        <a href="interests.html" id="lastUpdate">Last Updated 10/18/2018</a>
+      </address>
+    </footer>
+
+
+
+    <!--Scripts-->
+    <!-- Set the width of the side navigation to 250px -->
+    <script>
+      function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("tags").style.opacity = "1";
+          document.getElementById("tags2").style.opacity = "1";
+          document.getElementById("tags3").style.opacity = "1";
+          document.getElementById("tags4").style.opacity = "1";
+          document.getElementById("tags5").style.opacity = "1";
+          document.getElementById("tags6").style.opacity = "1";
+          document.getElementById("tags7").style.opacity = "1";
+      }
+    /** Set the width of the side navigation to 0 */
+      function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("tags").style.opacity = "0";
+          document.getElementById("tags2").style.opacity = "0";
+          document.getElementById("tags3").style.opacity = "0";
+          document.getElementById("tags4").style.opacity = "0";
+          document.getElementById("tags5").style.opacity = "0";
+          document.getElementById("tags6").style.opacity = "0";
+          document.getElementById("tags7").style.opacity = "0";
+      }
+    </script>
+
+  </body>
+</html>
