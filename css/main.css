@@ -21,7 +21,8 @@ p {
   padding-left: 25px;
   font-size: 35px;
   font-family: helvetica;
-  border-bottom: 5px solid black;
+  border-bottom: 7.5px solid #003d7f;
+  border-radius: 7.5px;
 }
 
 
@@ -41,7 +42,7 @@ footer {
   right: 0px;
   bottom: 0px;
   z-index: 2;
-  border-top: 5px solid #797979;
+  border-top: 7.5px solid #2f91f9;
   width: auto;
 }
 
@@ -69,7 +70,7 @@ footer a:hover {
   font-size: 1.1em;
   font-weight: bold;
   text-align: center;
-  border-bottom: 5px solid #111;
+  border-bottom: 5px solid #003d7f;
 }
 
 #intPTag {
@@ -144,6 +145,7 @@ tr > td > a {
 tr > td > a:hover {
   font-weight: bold;
   font-size: 2.2vw;
+  color: #2f91f9;
 }
 
 
@@ -210,6 +212,7 @@ span {
   padding-left: 1vw;
   padding-right: 2vw;
   margin-bottom: 3.5vh;
+  color: #2f91f9;
 }
 
 #icon {
