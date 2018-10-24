@@ -37,7 +37,7 @@
   <li><a href="https://etrulz.github.io/finalProject/contact.html">Contact Page</a></li>
     <ul>
       <li>This page explains all my contact information and contains links to my email and phone number</li>
-      <li><img src="images/" alt="image of the contact page"></li>
+      <li><img src="images/contactPage.PNG" alt="image of the contact page"></li>
     </ul>
 
 </ul>
